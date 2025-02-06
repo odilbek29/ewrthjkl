@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 27px 0;
+    background-color: #1F242D;
+    color: white;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration:none ;
+    color: white;
+}
+nav ul li a:hover{
+    color: #00EEFF;
+}
+.hero{
+    margin-top: 221px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+width: 176px;
+height: 45px;
+background-color: #00EEFF;
+box-shadow: 0px 0px 10px 0px #00EEFF;
+border: none;
+border-radius: 40px;
+margin-top: 30px;
+}
+h1{
+font-size: 56px;
+font-weight: 700;
+line-height: 72.8px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.tex p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+padding-bottom: 30px;
+}
+.tex h2{
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+}
+.tex h2 span{
+    color: #00EEFF;
+}
+main{
+    background-color: #1F242D;
+    color: white;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.card{
+    width: 380px;
+    height: 350px;
+    background-color: #323946;
+    border: 2px solid #1F242D;
+    border-radius: 20px;
+}
+.ota-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 27px;
+    text-align: center;
+}
+.ota-card img{
+    padding-top: 32px;
+}
+main .container h2 {
+font-size: 45px;
+font-weight: 700;
+line-height: 67.5px;
+text-align: center;
+}
+main .container h2 samp{
+  color: #00EEFF;
+}
+.ota-card h3{
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.ota-card p{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+
+}
+.hero3{
+    background-color: #323946;
+    margin-top: 250px;
+}
+.hero3 h2{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#da:hover{
+    width: 45px;
+}
+.hero-img img{
+width: 500px;
+animation-name: aylan;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: linear;
+}
+
+.menu-btn{
+    background-color: inherit;
+    color: white;
+    border: none;
+    font-weight: 24px;
+    display: none;
+}
+a{
+    box-shadow: 0px 0px 10px 0px #1F242D;
+   gap: 25px;
+}
+.hero4{
+    background-color: #1F242D;
+    padding-top: 100px;
+    text-align: center;
+    height: 855px;
+}
+.hero4 h2{
+font-size: 45px;
+font-weight: 700;
+line-height: 67.5px;
+color: white;
+padding-bottom: 38px;
+}
+.hero4 samp{
+    color: #00EEFF;
+}
+
+input{
+    width: 343px;
+    height: 55px;
+    top: 7px;
+    gap: 0px;
+    border-radius: 8px ;
+    opacity: 0px;
+    background-color: #323946;    
+    color: #757575;
+    border: none;
+    margin-top: 15px;
+}
+textarea{
+    width: 700px;
+height: 280px;
+top: 145px;
+gap: 0px;
+border-radius: 8px;
+border: none;
+background-color: #323946; 
+margin-top: 15px;
+padding-bottom: 32px;
+}
+.btn4{
+    width: 50px;
+    height: 45px;
+    background-color: #00EEFF;
+    box-shadow: 0px 0px 10px 0px #00EEFF;
+    border: none;
+    border-radius: 20px;
+    margin-top: 30px;  
+}
+footer{
+    background-color: #323946;
+    padding: 21px 0;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes aylan{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@media(max-width:768px){
+    header{
+        padding: 21px; 
+    }
+    nav{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .hero{
+        flex-direction: column;
+        padding: 40px 21px;
+    }
+    .ota-card{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .hero3{
+    padding: 251px;
+    }
+    .hero4{
+        padding: 21px;
+        justify-content: center;
+    }
+}
+@media(max-width:450px){
+    .hero-img img{
+        width: 90%;
+    }
+    textarea{
+        width: 366px;
+    }
+    .hero4{
+        padding: 21px;
+        justify-content: center;
+    }
+}
